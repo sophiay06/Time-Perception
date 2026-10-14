@@ -25075,9 +25075,12 @@ MonoBehaviour:
   progressBarPanel: {fileID: 713111449}
   progressBarFill: {fileID: 2098582399}
   videoClips:
-  - {fileID: 32900000, guid: 59fbf1f301e703d4bb5098f06797e5f8, type: 3}
-  - {fileID: 32900000, guid: cdcbd93b40666ac4bb8062cd2f6d564e, type: 3}
-  selectedVideoIndex: 1
+  - {fileID: 32900000, guid: dcf1f55c296fcd04b80b330f0ce5fb78, type: 3}
+  - {fileID: 32900000, guid: 6a883b41f9538bd4ea81a49cabc1225d, type: 3}
+  - {fileID: 32900000, guid: 4b022cb497fe2c740849b62f0108ef46, type: 3}
+  - {fileID: 32900000, guid: b4b27fa070875164fb076e5f873bba20, type: 3}
+  - {fileID: 32900000, guid: 4a9435356bf471940bd981338fa78f1a, type: 3}
+  selectedVideoIndex: 4
   condition: 1
   fastSpeed: 1.5
   slowSpeed: 0.7
