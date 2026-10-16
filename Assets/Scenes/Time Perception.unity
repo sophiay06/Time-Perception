@@ -25074,22 +25074,28 @@ MonoBehaviour:
   videoPlayer: {fileID: 417716090}
   progressBarPanel: {fileID: 713111449}
   progressBarFill: {fileID: 2098582399}
+  xrCamera: {fileID: 714797297}
+  blackoutWhenVideoEnds: 1
   videoClips:
   - {fileID: 32900000, guid: dcf1f55c296fcd04b80b330f0ce5fb78, type: 3}
   - {fileID: 32900000, guid: 6a883b41f9538bd4ea81a49cabc1225d, type: 3}
   - {fileID: 32900000, guid: 4b022cb497fe2c740849b62f0108ef46, type: 3}
   - {fileID: 32900000, guid: b4b27fa070875164fb076e5f873bba20, type: 3}
   - {fileID: 32900000, guid: 4a9435356bf471940bd981338fa78f1a, type: 3}
-  selectedVideoIndex: 4
+  selectedVideoIndex: 0
   condition: 1
-  fastSpeed: 1.5
-  slowSpeed: 0.7
+  slow2Speed: 0.5
+  slow1Speed: 0.75
+  fast1Speed: 1.25
+  fast2Speed: 1.5
   appearanceCount: 5
   visibleDuration: 3
   hideBeforeEnd: 60
-  fastSeed: 12345
+  slow2Seed: 45678
+  slow1Seed: 34567
   normalSeed: 23456
-  slowSeed: 34567
+  fast1Seed: 12345
+  fast2Seed: 56789
   printSchedule: 1
 --- !u!1001 &419601125
 PrefabInstance:
@@ -38505,6 +38511,10 @@ PrefabInstance:
     - target: {fileID: 154562, guid: 4073f41b7d930f94d9470df64ec12b53, type: 3}
       propertyPath: m_Name
       value: Clock
+      objectReference: {fileID: 0}
+    - target: {fileID: 154562, guid: 4073f41b7d930f94d9470df64ec12b53, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 456804, guid: 4073f41b7d930f94d9470df64ec12b53, type: 3}
       propertyPath: m_LocalScale.x
@@ -55155,6 +55165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController_Apt_01_01
       objectReference: {fileID: 0}
+    - target: {fileID: 436181208997811857, guid: 94e4c3350f88fe94ba5e156103abcf1c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6100920615187496226, guid: 94e4c3350f88fe94ba5e156103abcf1c, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -57904,7 +57918,7 @@ Transform:
   m_GameObject: {fileID: 1003250664}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 2.42, y: 3.95, z: -3.15}
+  m_LocalPosition: {x: 2.04, y: 4.108, z: -3.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -66687,6 +66701,10 @@ PrefabInstance:
     - target: {fileID: 9105533147478963073, guid: 29e76f542ce050b4d8948ddead8c0c46, type: 3}
       propertyPath: m_Name
       value: GameConsole_Apt_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105533147478963073, guid: 29e76f542ce050b4d8948ddead8c0c46, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -84048,6 +84066,10 @@ PrefabInstance:
     - target: {fileID: 1031492502663476, guid: eeba5b089ee3b4a4cbe7167afae0e4e1, type: 3}
       propertyPath: m_Name
       value: Vase_Apt_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031492502663476, guid: eeba5b089ee3b4a4cbe7167afae0e4e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4122820687784894, guid: eeba5b089ee3b4a4cbe7167afae0e4e1, type: 3}
       propertyPath: m_RootOrder
@@ -108535,6 +108557,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MirrorPlate_Filled Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2721190075246613306, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4611305905941640803, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6645630042409671750, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -119522,6 +119552,10 @@ PrefabInstance:
     - target: {fileID: 6175235209460370027, guid: f3421f20f5f724a4fab68ce9de3753e8, type: 3}
       propertyPath: m_Name
       value: GameController_Apt_01_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6175235209460370027, guid: f3421f20f5f724a4fab68ce9de3753e8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
