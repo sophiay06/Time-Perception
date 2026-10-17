@@ -25082,13 +25082,13 @@ MonoBehaviour:
   - {fileID: 32900000, guid: 4b022cb497fe2c740849b62f0108ef46, type: 3}
   - {fileID: 32900000, guid: b4b27fa070875164fb076e5f873bba20, type: 3}
   - {fileID: 32900000, guid: 4a9435356bf471940bd981338fa78f1a, type: 3}
-  selectedVideoIndex: 0
+  selectedVideoIndex: 1
   condition: 1
   slow2Speed: 0.5
   slow1Speed: 0.75
   fast1Speed: 1.25
   fast2Speed: 1.5
-  appearanceCount: 5
+  appearanceCount: 7
   visibleDuration: 3
   hideBeforeEnd: 60
   slow2Seed: 45678
